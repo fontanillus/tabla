@@ -1,0 +1,361 @@
+html {
+  background-color: whitesmoke;
+}
+
+body {
+  font-family: Nunito, 'Open Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 80%;
+  margin: 0 auto;
+  -webkit-user-select: none;
+  /* Compatibilidad con WebKit */
+  user-select: none;
+  /* Para navegadores modernos */
+  background-color: white;
+  padding-bottm: 5m;
+}
+
+#s1>table {
+  box-shadow: 1px 1px 20px #8C92AC;
+  border-collapse: collapse;
+ 
+}
+
+#s1>table> {
+  width: 100%;
+  border-spacing: 0%;
+}
+
+#s1>table>tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+#s1>table>tbody tr:nth-child(odd) {
+  background-color: #f2f2f2;
+}
+
+#s1>table>thead>tr>th {
+  border-top-right-radius: 12px;
+  border-top-left-radius: 15px;
+  height: 1.5em;
+  color: black;
+  border-collapse: collapse;
+}
+
+#s1>table>tbody>tr>td {
+  border-collapse: collapse;
+  
+}
+
+
+#s2>table> {
+  width: 100%;
+
+}
+
+#s2>table>thead>tr>th {
+  height: 1.5em;
+  border: none;
+  height: 1.5em;
+  border-collapse: ;
+  color: white;
+
+}
+
+#s2>table>tbody>td {
+  padding: 10em 0;
+  
+}
+
+#s2>table {
+  border: 50px solid #74727295;
+  }
+
+#s3>table {
+  border-top: 0%;
+  border-bottom: 0%;
+  background-color: white solid;
+
+}
+
+#s3>table> {
+  width: 100%;
+  border-collapse: collapse;
+  border: none;
+  border-top: 0%;
+  border-bottom: 0%;
+}
+
+#s3>table {
+  background-color: white;
+}
+
+
+
+#s3>table>thead>tr>th {
+  border-top;0%;
+  border-bottom: 0%;
+  height: 2em;
+  border: none;
+  color: black;
+
+
+}
+
+#s3>table>tbody>td {
+  padding: 2em 0;
+  border-collapse: collapse;
+  border: none;
+  border-top: 0%;
+  border-bottom: 0%;
+  
+ 
+
+}
+
+
+
+.azul {
+  background-color: blue;
+  padding: 30px;
+  height: 1.5em;
+  border-radius: 8px;
+  color: white;
+}
+
+.blau {
+  background-color: blue;
+  padding: 30px;
+  height: 1.5em;
+  border-bottom-right-radius: 0%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 10px;
+  color: white;
+}
+
+.blue {
+  background-color: blue;
+  padding: 30px;
+  height: 1.5em;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0%;
+  color: white;
+
+}
+
+.gris {
+  background-color: #f2f2f2;
+}
+
+.violeta {
+  background-color: blueviolet;
+  padding: 30px;
+  height: 1.5em;
+  border-radius: 8px;
+  color: white;
+}
+
+
+.viuleta {
+  background-color: blueviolet;
+  padding: 30px;
+  height: 1.5em;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0%;
+}
+
+.violet {
+  background-color: blueviolet;
+  padding: 30px;
+  height: 1.5em;
+  color: white;
+  border-bottom-right-radius: 0%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 10px;
+}
+
+.black {
+  background-color: black;
+  padding: 30px;
+  height: 1em;
+  border-radius: 8px;
+}
+
+.noir {
+  background-color: black;
+  padding: 30px;
+  height: 60px;
+  border-bottom-right-radius: 0%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 10px;
+  color: white;
+}
+
+.negre {
+  background-color: black;
+  padding: 30px;
+  height: 0.5em;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0%;
+  color: white;
+}
+
+
+.rosa {
+  background-color: fuchsia;
+  padding: 30px;
+  height: 1.5em;
+  border-radius: 8px;
+  color: white;
+}
+
+.rose {
+  background-color: fuchsia;
+  padding: 30px;
+  height: 1.5em;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0%;
+
+}
+
+.rouse {
+  background-color: fuchsia;
+  padding: 30px;
+  height: 1.5em;
+  color: white;
+  border-bottom-right-radius: o%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 10px;
+}
+
+.amarillo {
+  background-color: rgb(248, 182, 59);
+  padding: 30px;
+  height: 1.5em;
+  border-radius: 8px;
+  color: white;
+}
+
+.groc {
+  background-color: rgb(248, 182, 59);
+  padding: 30px;
+  height: 1.5em;
+  color: white;
+  border-bottom-right-radius: o%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 0%;
+  border-top-right-radius: 10px;
+}
+
+.grogec {
+  background-color: rgb(248, 182, 59);
+  padding: 30px;
+  height: 1.5em;
+  color: white;
+  border-bottom-right-radius: 10px;
+  border-top-left-radius: 0%;
+  border-bottom-left-radius: 10px;
+  border-top-right-radius: 0%;
+}
+
+.white {
+  background-color: white;
+  
+
+}
+
+span {
+  font-size: x-large;
+}
+
+.size {
+  padding-top: 2%;
+  padding-bottom: 1.5%;
+}
+
+.mi {
+  background-color: black;
+  color: white;
+  font-size: lage;
+  padding leff: 30%;
+}
+
+.posicion {
+  text-align: center;
+}
+
+.ancha {
+  width: 50px;
+  font-weight: bold;
+  font-size: larger
+}
+
+.ancla {
+width: 4%;
+}
+
+.alta {
+  height: 50px;
+}
+
+.orange {
+  color: rgb(248, 182, 59)
+}
+
+.pink {
+  color: rgb(225, 55, 200)
+}
+
+tfoot {
+  background-color: black;
+  text-align: center;
+  color: white
+}
+
+.tamaño {
+  width: 8px;
+  background-color: #f2f2f2;
+}
+
+.claro {
+  background-color: white
+}
+
+.clar {
+  background-color: white;
+}
+
+.gold {
+  border-bottom: rgb(243, 194, 19) solid;
+}
+
+
+h1 {
+  background-color: white;
+}
+
+.mida {
+width: 55%;
+}
+
+.super {
+  width: 16%;
+}
+
+.large {
+  width: 80px;
+  padding: 60px;
+}
